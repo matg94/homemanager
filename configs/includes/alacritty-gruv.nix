@@ -6,13 +6,13 @@ isGui:
 	        TERM = "xterm-256color";
 	    };
 		font = {
-			size = 15;
+			size = 18;
 		};
 		window.padding = {
 			x = 20;
 			y = 20;
 		};
-		window.opacity = 0.9;
+		window.opacity = 0.95;
 		colors = { # Gruvbox
             primary = {
                 background =  "0x282828";
