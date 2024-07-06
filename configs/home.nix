@@ -33,12 +33,7 @@ in
         sessionVariables = import ./environment/session-variables.nix;
         packages = import ./environment/packages.nix {inherit pkgs isGui; };
 
-#        file = import ./files/links.nix;
-        file = {
-    ".config/polybar/config.ini".source = ./files/polybar/config.ini;
-    ".config/rofi/launcher.rasi".source = ./files/rofi/launcher.rasi;
-    ".config/rofi/colors.rasi".source = ./files/rofi/colors.rasi;
-        };
+        file = import ./files/files.nix;
     };
 
     xresources.extraConfig = "Xft.dpi: 192";
