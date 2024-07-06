@@ -12,7 +12,7 @@ isGui:
 			x = 20;
 			y = 20;
 		};
-		window.opacity = 0.95;
+		window.opacity = 0.92;
 		colors = { # Gruvbox
             primary = {
                 background =  "0x282828";
