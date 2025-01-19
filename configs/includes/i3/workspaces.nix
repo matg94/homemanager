@@ -1,22 +1,22 @@
 [
     {
-        output = "HDMI-1";
+        output = "HDMI-2";
         workspace = "1";
     }
     {
-        output = "HDMI-1";
+        output = "HDMI-2";
         workspace = "2";
     }
     {
-        output = "HDMI-1";
+        output = "HDMI-2";
         workspace = "3";
     }
     {
-        output = "HDMI-1";
+        output = "HDMI-2";
         workspace = "4";
     }
     {
-        output = "HDMI-1";
+        output = "HDMI-2";
         workspace = "5";
     }
     {

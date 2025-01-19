@@ -12,6 +12,7 @@ with pkgs;
     jq
     zip
     unzip
+    dig
 
     # Devops tools - Common Packages
     kubectl
@@ -22,8 +23,8 @@ with pkgs;
     rustup
     python3
     python311Packages.pip
-#    jdk21
-#    nodejs_21
+    python311Packages.pandas
+    nodejs_22
 
     # GUI only packages
 ] ++ (if isGui then [
@@ -33,4 +34,5 @@ with pkgs;
     libnotify
     glib
     dconf
+    cura
 ] else [])
